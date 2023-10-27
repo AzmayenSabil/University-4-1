@@ -1,0 +1,96 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[margin=2.7cm]{geometry}
+
+\usepackage{lipsum}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{ragged2e}
+
+\title{Basics of \LaTeX\ for CSE 4714}
+\author{Moohammad Ishrak Abedin}
+\date{18 October 2023}
+
+\begin{document}
+    \begin{titlepage}
+        \maketitle
+        \tableofcontents
+    \end{titlepage} 
+
+    \begin{abstract}
+        \lipsum[3]
+    \end{abstract}
+
+    \section{Introduction}
+    \textbf{Hello, World!} \textit{How are \textbf{your} doing?}
+
+    \pagebreak
+    
+    \section{Related Works}
+    \subsection{Type 1}
+    LaTeX is a \underline{high-quality} typesetting system;it includes features designed for the production of technical and scientific documentation. LaTeX is the de facto standard for the \emph{communication} and publication
+    
+    \subsection{Type 2}
+        \begin{small}        
+            \textit{of scientific documents. \emph{LaTeX} is available as free software. You don't have to pay for using LaTeX, i.e., there are no license fees, etc. But you are, of course, invited to support the maintenance and development efforts through a donation to the TeX Users Group }(choose LaTeX Project contribution) if you are satisfied with LaTeX. You can also sponsor the work of LaTeX team members through the GitHub sponsor program at the moment for Frank, David and Joseph.
+        \end{small}
+    
+    \begin{center}
+        \lipsum[1-2]
+    \end{center}
+
+    \pagebreak
+    \subsubsection{ABC}
+    This is a sub-sub-section.
+
+    \section{Methodologies}
+    Your contribution goes without any reductions by GitHub to the developers in support of the project. The volunteer efforts that provide you with LaTeX need financial support, so thanks for any contribution you are willing to make.
+
+    \pagebreak
+    Pay attention to the following list:
+
+    \begin{itemize}
+        \item Rice
+        \item Oil
+        \begin{itemize}
+            \item Mustard Oil
+            \begin{itemize}
+                \item Low Grade
+                \item High Grade
+            \end{itemize}
+            \item Canola Oil
+        \end{itemize}
+        \item Vinegar
+        \begin{enumerate}
+            \item Item 1
+            \begin{enumerate}
+                \item Item 1.1
+                \item Item 1.2
+                \item Item 1.3
+            \end{enumerate}
+            \item Item 2
+            \item Item 3
+        \end{enumerate}
+    \end{itemize}
+
+    \newpage
+    \section*{Acknowledgement}
+    \begin{center}
+        \lipsum[3-4]
+    \end{center}
+    ----
+    \begin{Center}
+        \lipsum[3-4]
+    \end{Center}
+    
+    \newpage
+    \begin{raggedright}
+        \lipsum[3-4]
+    \end{raggedright}
+    
+    ----
+    
+    \begin{RaggedRight}
+        \lipsum[3-4]
+    \end{RaggedRight}
+\end{document}
