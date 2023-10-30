@@ -1,0 +1,82 @@
+Research -> systematic investigation
+Features of a quality research:
+Clear Research Goal/Research Ques/Research Problem
+Method
+Data
+Reproducability
+Contribute to knowledge domain + Clear (Peer Reviewed)
+Ethical
+
+Not quality research (the above features absent):
+Publish take time
+Funding
+
+Steps:
+1. Clear Research Goal
+2. Literature Review (Other papers and their drawbacks)
+3. Perfect Research Methodology
+	- Design (Fix parameters)
+	- Data (what type of data using)
+	- Metric (based on what evaluate your work)
+4. Experiment : limitations, parameter values...
+5. Analysis : analyze result, verdict if supporting Research goal, which cases it's working and which cases it's not working
+6. Presentation : slide, Technical report, journal (Get credibility)
+
+Types of Research:
+1. Basic - only increase knowledge, no application
+2. Applied - real life prob, soln applied
+3. Primary - new knowledge inherited
+4. Secondary - based on existing knowledge improve idea
+5. Quantitative - working with numerical data, formula
+6. Qualitative - hypothesis, philosophy
+7. Survery- questionnaire, get/collect operational data from sample people
+8. Experimental - performed in a controlled environment (fixed variables)
+9. Case Study - investigation on single person/organization
+
+
+PRACTICAL
+
+
+mathematical eqn
+1. inline math (inside para)
+2. display math (in a separate line by itself)
+
+
+
+// --------------------------
+
+
+What is research?
+A systematic investigation approach
+
+Benefits:
+Learn, solve, literature review, make appropriate division
+
+Types:
+Quantitative, Qualitative
+
+Or
+Basic, Applied, Experimental
+
+Basic: only contributes in improving knowledge
+Applied: Done based on data
+Survey: Collect Data only
+Experimental: Happens in a controlled environment where the values of some variables are known which when changed affects directly to the outcome of the research
+Case Study: 
+
+Features of Research
+i) Clear Goal (Have an appropriate research question
+ii) Appropriate Method
+iii) Data (If data is biased / unifitting)
+iv) Ethics (Acknowledgement or giving credit of work that you have used from other researchers)
+v) Clear outcome
+vi) Peer reviews
+
+
+Steps to perform a Research
+Goal
+Literature Review
+Methodology
+Experiments
+Analyze
+Present
