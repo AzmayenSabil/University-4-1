@@ -1,0 +1,101 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{amsmath, amssymb}
+
+\title{Lab2 - Section A - Mathematical Expressions}
+\author{Mohammad Ishrak Abedin}
+\date{October 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Expression Type}
+\subsection{Inline Equation}
+There are 2 modes. We know, $\cos^2\theta + \sin^2\theta = 1$. This equation is part of the current line and is known as an inline expression. \(\cos^2\theta + \sin^2\theta = 1\). \begin{math}
+    cos^2\theta + \sin^2\theta = 1
+\end{math}.
+
+\subsection{Display Mode}
+\lipsum[1][1-5]. Hello. \[ \cos^2\theta + \sin^2\theta = 1 \].
+
+\begin{equation*}
+    a + b = 1
+\end{equation*}
+
+\begin{equation} \label{eqn:sincosone}
+    \cos^2\theta + \sin^2\theta = 1
+\end{equation}
+
+\begin{displaymath}
+    \cos^2\theta + \sin^2\theta = 1
+\end{displaymath}
+
+Well, I want to refer to \autoref{eqn:sincosone}.
+
+We can write fractions, $\frac{a + b}{x + y}$.
+
+\begin{equation}
+    \frac{a + b}{x + y} = \left[ \sqrt{\frac{1}{\sqrt{\frac{5}{\frac{a + b}{x + y}}}}} \times 3 \right.
+\end{equation}
+
+\begin{equation}
+    a = \vec{\alpha} \cdot \vec{\Delta} \in \mathbf{Z}
+\end{equation}
+
+\begin{equation}
+    ABC = \mathcal{ABC} = \mathfrak{ABC} = \mathbb{ABC}
+\end{equation}
+
+\begin{equation}
+    A_i^2 = 20 = B_{123} = C^{abc}
+\end{equation}
+\newpage
+\begin{equation}
+    \int_{5}^{10} x dx = 20
+\end{equation}
+\begin{equation}
+    \int\limits_{5}^{10} x dx = 20
+\end{equation}
+\begin{equation}
+    \sum_{i=5}^{20}X_{i} = \prod_{i=-\infty}^{+\infty}Y_{i} = \lim_{i \to \infty} x \Delta x
+\end{equation}
+
+\begin{equation}
+    sin^2 \theta + cos^2 \theta \neq = > < \geq \leq \sin^2 \theta + \cos^2 \theta \rightarrow I\qquad want to say something
+\end{equation}
+
+\begin{multline}
+    a = bbbbbbbbbbbbbbbbbbbbb = ccccccccccccccccccc =\\ ddddddddddddddddd =\\ eeeeeeeeeeeeeeeeeeee = fffffffffffffffff
+\end{multline}
+
+\begin{equation}
+    \begin{split}
+        a = \frac{50}{100} &= \frac{10}{20}\\
+        &= \frac{1}{2}\\
+        &= 0.5
+    \end{split}
+\end{equation}
+
+\begin{align}
+    x + 3y &= 55\\
+    52x - 2y &= 30\\
+    x &= 2
+\end{align}
+
+\begin{gather}
+    x + 3y = 55\\
+    52x - 2y = 30\\
+    x = 2
+\end{gather}
+
+\begin{equation}
+    \begin{bmatrix}
+        1 & 2 & 3\\
+        4 & 5 & 66\\
+        777 & 8 & .9
+    \end{bmatrix} = \hat{2}
+\end{equation}
+\end{document}
