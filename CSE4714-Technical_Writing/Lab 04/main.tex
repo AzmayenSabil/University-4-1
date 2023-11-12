@@ -1,0 +1,218 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\newcolumntype{C}{>{\centering\arraybackslash} m }
+\newcolumntype{Y}{>{\centering\arraybackslash} X }
+\newcolumntype{Z}{>{\raggedleft\arraybackslash} X }
+
+\usepackage{lipsum}
+
+
+%\setlength{\arrayrulewidth}{0.1mm}
+%\setlength{\tabcolsep}{20pt}
+\renewcommand{\arraystretch}{1.2} % Increases row separation by 1.2 times of the default value
+
+\title{Lab 5 TRW Winter 2023 Section A}
+\author{Mohammad Ishrak Abedin}
+\date{November 2023}
+
+\begin{document}
+
+\begin{titlepage}
+    \maketitle
+    \listoftables
+\end{titlepage}
+
+\section{Introduction}
+\lipsum[1-2]
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|| C{40ex} | c | l ||}
+        \hline
+        \hline
+        \textbf{Header 1 sda ge gaeg d aeg ae gage age agw geas ghea ae efgae gae gea gea gae age g a ea gae } & \textbf{Header 2} & \textbf{Header3}  \\
+        \hline
+        Cell 1 & Cell 2 & Cell 3 \\
+        \hline
+        Cell 4 & Cell 5 & Cell 6 \\ 
+        \hline
+    \end{tabular}
+    \caption{A Simple Table}
+    \label{tab_simpletable}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabularx}{0.85\textwidth}{|| Z | c | l ||}
+        \hline
+        \hline
+        \textbf{Header 1 sda ge gaeg d aeg ae gage age agw geas ghea ae efgae gae gea gea gae age g a ea gae } & \textbf{Header 2} & \textbf{Header3}  \\
+        \hline
+        Cell 1 & Cell 2 & Cell 3 \\
+        \hline
+        Cell 4 & Cell 5 & Cell 6 \\ 
+        \hline
+    \end{tabularx}
+    \caption{An X Table}
+    \label{tab_xtable}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{|c | c | c | c | c |}
+        \hline
+        \multicolumn{3}{|c|}{A1, 2, 3} & A4 & A5 \\
+        \hline
+        B1 & B2 & B3 & \multicolumn{2}{c |}{\multirow{2}{*}{B4-C5}} \\
+        \cline{1-3}
+        C1 & C2 & C3 & \multicolumn{2}{c |}{}  \\
+        \hline
+        D1 & \multirow{2}{*}{D,E2} & D3 & D4 & D5 \\
+        \cline{1-1}\cline{3-5}
+        E1 &  & E3 & E4 & E5 \\
+        \hline
+    \end{tabular}
+    \caption{Multi Row Col Table}
+    \label{tab:mrctable}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \begin{tabular}{c c}
+        \toprule
+        \textbf{Key} & \textbf{Value} \\
+        \midrule
+        Key 1 & $\sin 45^{\circ}$ \\ 
+        Key 2 & $a + b$ \\ 
+        \bottomrule
+    \end{tabular}
+    \caption{A Booktabs Table}
+    \label{tab:bttable}
+\end{table}
+
+\begin{longtable}[c]{| c | c |}
+    \caption{Long table caption.\label{long}}\\
+    
+    \hline
+    \multicolumn{2}{| c |}{Begin of Table}\\
+    \hline
+    Something & something else\\
+    \hline
+    \endfirsthead
+    
+    \hline
+    \multicolumn{2}{|c|}{Continuation of Table \ref{long}}\\
+    \hline
+    Otherthing & otherthing else\\
+    \hline
+    \endhead
+
+    \hline
+    \multicolumn{2}{|c|}{End of a page}\\
+    \hline
+    \endfoot
+    
+    \hline
+    \multicolumn{2}{| c |}{End of Table}\\
+    \hline\hline
+    \endlastfoot
+    
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+    Lots of lines & like this\\
+ \end{longtable}
+
+
+\end{document}
