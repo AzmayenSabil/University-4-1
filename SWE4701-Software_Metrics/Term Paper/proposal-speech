@@ -1,0 +1,32 @@
+Page-4:
+So now lets talk about the relevance between our course and the topic that we have chosen to work on. 
+Mainly this would be a great place to apply our theoritical concepts, know more about the software metrics and it's utilization. 
+Moreover we will be able to grasp the process of metric analysis and based on that we will be able to improve our decision making skill. 
+In short we can merge our theoritical knowledge and real world applciation as well as contribute to the software community, hopefully with a positive impact.
+
+
+Page-5:
+As for our appraoch to reach the goal, we want to divide our work like this. 
+First to find relevant resources to our work, then find suitable codebase to apply our work, 
+after that figuring out the metrices to evaluate 
+and finally use different tools available to evaluate metrices.
+
+
+Page-8:
+So in this part, as you can see some of the metrics to assess software's overall performance and complexity. 
+Most of them we are already familiar with like, cyclomatic comoplexity, halstead metrics, LOC, response time, release frequency, number of classes or modules and so on. 
+Our plan is to find out the most suitable and aligned metrices to our chosen projects and use those to evaluate the two architectures. 
+
+
+Page-9:
+So when it comes to evaluation differnet software metrices, we will obviously be needing some tools to do that. 
+These are the few tools that we might use based on our requirements, 
+also keeping in mind the availability and comaptibility of the tools.
+Among these tools we are already familair with Jmeter. 
+From our previous night's exploration, sonarqube, code climate, jenkins, cloc might be useful for our work. And we have to figure out the rest throughout the journey. 
+
+
+So this is all from our side. We will appreciate any kinds of suggestions. Thank you.
+
+
+
