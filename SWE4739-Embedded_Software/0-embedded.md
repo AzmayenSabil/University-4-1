@@ -4,30 +4,30 @@ CHAPTER 2, 3, 7
 
 ALL SLIDES
 
-1. Priority Inversion
-2. Boudned PI
-3. Unbounded PI
-4. Priority Ceiling
-5. Priority Inheritence
+1. Priority Inversion - I
+2. Boudned PI - I
+3. Unbounded PI - I
+4. Priority Ceiling - I
+5. Priority Inheritence - I
 
-6. ASAP
-7. ALAP
-8. Resources Constrained
-9. Time Constrained (Probabilistic)
+6. ASAP - I
+7. ALAP - I
+8. Resources Constrained - I
+9. Time Constrained (Probabilistic) - I
 
-10. FSM
-11. Timed Automata
-12. StateChart
-13. SDL (Specification and description language)
-14. Petri Nets
+10. FSM - I
+11. Timed Automata - I
+12. StateChart - I
+13. SDL (Specification and description language) - I
+14. Petri Nets - I
 
 15. Task-level concurrency management
 16. Merging and Splitting Of tasks
 17. Array Folding
 18. Loop optimization
 19. Energy-aware Compilation
-20. SOA and Naive SOA
-21. Liao's Algorithm
+20. SOA and Naive SOA - I
+21. Liao's Algorithm - I
 
 22. Distributed System -> Defn, Goals, Scaling Techniques, Requirement of design
 23. Enslows Definition
@@ -40,8 +40,8 @@ ALL SLIDES
 28. Validation - Semi-formal Method
 29. Validation - Testbench Coverage
 30. Validation - Formal
-    30.1. Equivalence Checking
-    30.2. Model Checking
+    30.1. Equivalence Checking - I
+    30.2. Model Checking - I
 
 31. Embedded System Technologies
 32. Processor Technologies
